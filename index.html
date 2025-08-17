@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medical Website Header</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+      <span>HealthCare+</span>
+    </div>
+
+  <nav class="navbar" id="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Find Doctors</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li class="mobile-only"><button class="join-btn-mobile">Join Now</button></li>
+     <!-- mobile button -->
+  </ul>
+</nav>
+
+
+  <div class="join">
+  <button class="join-btn desktop-only">Join Now</button>
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+</div>
+  </header>
+
+  <!-- =====================================main section========================================== -->
+
+  <main class="sec-main">
+    <section class="main-section">
+  <div class="left-side">
+    <h1>Your <span class="highlight">Trusted Partner</span> in Digital Healthcare</h1>
+    <p>
+      We offer professional healthcare solutions using advanced digital systems. Our network is strong and secure, ensuring reliable treatment and support for everyone. Trust us for the best digital health experience with real-time appointments, experienced doctors, and patient-first care at every stage.
+    </p>
+
+    <button class="cta-btn">
+      Book an Appointment <i class="fas fa-arrow-right"></i>
+    </button>
+
+    <div class="partners">
+      <div class="trusted-text">
+      <p>Trusted by Million across the globe</p>
+      </div>
+      <div class="trusted-images">
+     <!-- Amazon -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" height="40">
+
+<!-- Google -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" height="40">
+
+<!-- Apple -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" height="40">
+
+<!-- Spotify -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify" height="40">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="right-side">
+    <div class="image-wrapper">
+      <div class="oval-bg"></div>
+      <img src="assests/Doctor-PNG-File-Download-Free 1.png" alt="Doctor" class="main-img">
+
+      <div class="customer-box">
+        <div class="profile-group">
+          <img src="assests/Ellipse 8.png" alt="User" class="profile-pic">
+          <img src="assests/Ellipse 6.png" alt="User" class="profile-pic">
+          <img src="assests/Ellipse 9.png" alt="User" class="profile-pic">
+          <img src="assests/Ellipse 8.png" alt="User" class="profile-pic">
+          <img src="assests/Ellipse 6.png" alt="User" class="profile-pic">
+          <span class="extra">+99</span>
+        </div>
+        <p class="happy-text">Happy Customers</p>
+        <div class="ratings">
+          <span>★★★★★</span>
+          <span>(4.7 Stars)</span>
+        </div>
+      </div>
+
+      <p class="bottom-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem 30 lorem lorem lorem lorem lorem.</p>
+    </div>
+
+    <div class="left-badge">
+      <i class="fas fa-star"></i> Early Appointment Booking
+    </div>
+  </div>
+</section>
+<!-- ==========================appointment========================== -->
+<section class="booking-section" aria-label="Book an Appointment">
+  <div class="booking-container">
+    <!-- Heading -->
+    <div class="booking-top">
+      <h2>Easily Book an Appointment in 3 simple steps.</h2>
+      <!-- <div class="icon-row">
+        <i class="fas fa-envelope"></i>
+        <span>Enter your details below</span>
+      </div> -->
+    </div>
+
+    <!-- Horizontal Form Layout -->
+    <form class="booking-form" action="#" method="POST" aria-label="Appointment Form">
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+
+      <!-- Contact Number -->
+      <div class="form-group">
+        <label for="contact">Contact No</label>
+        <input type="tel" id="contact" name="contact" placeholder="+1234567890" required>
+      </div>
+
+      <!-- Booking Date -->
+  <div class="form-group">
+  <label for="date">Booking Date</label>
+  <input type="date" id="date" name="date" required>
+</div>
+
+
+
+      <!-- Button -->
+      <div class="form-group btn-group">
+        <button type="submit" class="book-btn">
+          <i class="fas fa-check"></i> Book Now
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+<!-- ======================================services section=========================================== -->
+<section class="top-services-section">
+  <div class="section-header">
+    <h2>Top <span class="highlight">Services</span> We Offer</h2>
+    <p>
+      Our medical facility provides a wide range of health services designed to ensure your complete well-being. From personalized consultations to advanced diagnostics, we aim to deliver quality care at every step. Discover how we prioritize your health through our expert offerings.
+    </p>
+  </div>
+
+  <div class="services-boxes">
+    <!-- Top Row -->
+    <div class="top-row">
+      <!-- Big Box -->
+      <div class="service-box big">
+        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" alt="Diagnostic Icon">
+        <h3>Online Consultations</h3>
+        <p>
+        Consult with top doctors across various specialties via video or chat communication. It’s totally secure, private, and convenient. Choose the best time for an in-person visit with our easy-to-use scheduling system, or proceed with our online consultation
+        </p>
+      </div>
+      
+      <!-- Small Box -->
+      <div class="service-box small">
+        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965494.png" alt="Therapy Icon">
+        <h3>Booking Appointment</h3>
+        <p>Choose the best time for an in-person visit with our easy-to-use scheduling system, or proceed with our online consultation features.</p>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="bottom-row">
+      <div class="service-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965523.png" alt="Dental Icon">
+        <h3>Prescriptions</h3>
+        <p>Receive and renew prescriptions digitally after your consultation with our specialists</p>
+      </div>
+      <div class="service-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965507.png" alt="Emergency Icon">
+        <h3>Medical Notes</h3>
+        <p>Obtain necessary medical notes for work or school with only a few clicks of hassle</p>
+      </div>
+      <div class="service-box">
+        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965510.png" alt="Mental Health Icon">
+        <h3>Medicine Refills</h3>
+        <p>Skip the pharmacy queues and save time + energy by ordering medicine refills online.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===================================healthnet story=============================== -->
+<section class="story-section">
+  <div class="story-box">
+    <h2 class="story-heading"><span>HealthsNet</span> Story - Get to Know Us</h2>
+    <div class="story-content">
+      <div class="story-left">
+        <img src="assests/Rectangle 7.png" alt="Doctor" class="doctor-image" />
+      </div>
+      <div class="story-right">
+        <p>
+          At HealthsNet, we are committed to transforming the healthcare experience. Our journey began with a mission to bridge the gap between patients and quality healthcare through innovative digital solutions. 
+          We strive to make healthcare accessible, reliable, and personal. Our team of experienced medical professionals and tech experts work hand-in-hand to ensure you receive the best care possible.
+        </p>
+        <button class="learn-more-btn">Learn more about us</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================how platform works============================= -->
+ <section class="platform-section">
+  <div class="platform-box">
+    <h2 class="platform-heading">How <span>Our Platform</span> Works</h2>
+    <p class="platform-desc">
+      Our platform streamlines your healthcare journey by connecting you with trusted medical professionals, managing appointments, and providing personalized support all in one place.
+    </p>
+    <div class="platform-content">
+      <!-- Left Side Steps -->
+      <div class="platform-steps">
+        <div class="step">
+          <div class="circle">1</div>
+          <div class="step-text">
+            <h3>Sign Up</h3>
+            <p>Create your account in seconds and gain instant access to healthcare tools.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">2</div>
+          <div class="step-text">
+            <h3>Book Appointment</h3>
+            <p>Choose a doctor and schedule your visit at your convenience.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="circle">3</div>
+          <div class="step-text">
+            <h3>Get Treated</h3>
+            <p>Meet with your doctor online or in person and get the care you need.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side Image -->
+      <div class="platform-image-box">
+        <!-- <div class="plus-sign">+</div> -->
+         <img src="assests/Group 27.png" alt="" class="plus-img">
+        <img src="assests/Frame 18.png" alt="Doctor" class="doctor-img" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================patient section=========================== -->
+ <section class="testimonials-section">
+  <h2 class="gradient-heading">Patient Testimonials</h2>
+  <h3 class="sub-heading">Hear from those who've cared from</h3>
+  <p class="sub-text">Real stories from our happy patients who trusted us with their care.</p>
+
+  <!-- Two Testimonial Boxes -->
+  <div class="testimonial-row">
+    <div class="testimonial-box">
+      <img src="assests/Rectangle 8 (2).png" alt="Patient" class="patient-img">
+      <div class="testimonial-text">
+        <p>
+          “The doctors here truly care about their patients. My appointment was quick, easy, and stress-free.”
+        </p>
+          <h4>~ Lary Elison</h4>
+      </div>
+    </div>
+    <div class="testimonial-box">
+      <img src="assests/Rectangle 8 (3).png" alt="Patient" class="patient-img">
+      <div class="testimonial-text">
+        <p>
+          “Booking an appointment was effortless. I’m so grateful for the excellent service.”
+        </p>
+          <h4>~ Lary Elison</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Stats -->
+  <div class="customer-stats">
+    <div class="stat">
+      <h2>12K+</h2>
+      <p>Successful Consultations</p>
+    </div>
+    <div class="stat">
+      <h2>8K+</h2>
+      <p>Happy Patients</p>
+    </div>
+    <div class="stat">
+      <h2>500+</h2>
+      <p>Expert Doctors</p>
+    </div>
+    <div class="stat">
+      <h2>10+</h2>
+      <p>Years of Service</p>
+    </div>
+  </div>
+
+  <!-- Another Two Testimonial Boxes -->
+  <div class="testimonial-row">
+    <div class="testimonial-box">
+      <img src="assests/Rectangle 8.png" alt="Patient" class="patient-img">
+      <div class="testimonial-text">
+        <p>
+          “They made me feel at ease from the very beginning. Highly recommend this platform.”
+        
+        </p>
+  <h4>~ Lary Elison</h4>
+      </div>
+    </div>
+    <div class="testimonial-box">
+      <img src="assests/Rectangle 8 (1).png" alt="Patient" class="patient-img">
+      <div class="testimonial-text">
+        <p>
+          “A seamless and professional experience every time. Truly life-changing.”
+        </p>
+          <h4>~ Lary Elison</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===========================================team members============================================================= -->
+  
+<section class="doctors-section">
+  <h2 class="main-heading">Master of Medicine</h2>
+  <h3 class="sub-heading">Meet Our Team Members</h3>
+  <p class="intro-text">
+    Our team of highly skilled doctors is dedicated to providing the best healthcare solutions. 
+    Each member brings unique expertise and compassionate care to ensure your well-being.
+  </p>
+
+  <!-- Doctor Box 1 -->
+  <div class="doctor-box">
+    <div class="doctor-left">
+      <img src="assests/Doctor-Free-PNG-Image 1.png" alt="Doctor Image">
+    </div>
+    <div class="doctor-right">
+      <h3 class="doctor-name">Dr. Sarah Johnson <span>(Cardiologist)</span></h3>
+      <p>
+        Dr. Sarah Johnson has over 15 years of experience in cardiology and specializes 
+        in treating complex heart conditions. She is dedicated to preventive care, 
+        patient education, and advanced treatment methods for her patients.
+      </p>
+      <button class="book-btn">
+        <i class="fas fa-phone-alt"></i> Book an Appointment
+      </button>
+    </div>
+  </div>
+
+  <!-- Doctor Box 2 -->
+  <div class="doctor-box">
+    <div class="doctor-left">
+      <img src="assests/Doctor-PNG-Clipart 1.png" alt="Doctor Image">
+    </div>
+    <div class="doctor-right">
+      <h3 class="doctor-name">Dr. James Smith <span>(Neurologist)</span></h3>
+      <p>
+        With over a decade of experience in neurology, Dr. Smith focuses on diagnosing 
+        and managing neurological disorders. His patient-centered approach combines 
+        medical expertise with empathy to deliver outstanding care.
+      </p>
+      <button class="book-btn">
+        <i class="fas fa-phone-alt"></i> Book an Appointment
+      </button>
+    </div>
+  </div>
+</section>
+<!-- =======================FOOTER========================================= -->
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Left Side -->
+    <div class="footer-left">
+      <h2 class="logo">HealthCare+</h2>
+      <p>
+        HealthsNet is your trusted partner in healthcare.  
+        We provide expert medical consultation and support for your well-being.  
+      </p>
+    </div>
+
+    <!-- Right Side -->
+    <div class="footer-right">
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Getting Started</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Help Artiles</a></li>
+          <li><a href="#">Report an Issue</a></li>
+          <li><a href="#">Content Help Desk</a></li>
+        
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#">Booking Appointments</a></li>
+          <li><a href="#">Online Consultations</a></li>
+          <li><a href="#">Prescriptions</a></li>
+          <li><a href="#">Medicine Refills</a></li>
+          <li><a href="#">Medical Notes</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cookie Notice</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Trust Center</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+   <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="copyright">© 2025 HealthsNet. All rights reserved.</p>
+  </div>
+</footer>
+
+
+</main>
+</body>
+</html>
